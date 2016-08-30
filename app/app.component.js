@@ -8,14 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-// #docregion pt1
 var core_1 = require('@angular/core');
-var Hero = (function () {
-    function Hero() {
-    }
-    return Hero;
-}());
-exports.Hero = Hero;
 var HEROES = [
     { id: 11, name: 'Chakra' },
     { id: 12, name: 'Batra' },
@@ -47,5 +40,4 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-// #enddocregion pt1 
 //# sourceMappingURL=app.component.js.map
